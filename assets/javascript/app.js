@@ -13,9 +13,12 @@ $(document).ready(function() {
     var database = firebase.database();
 
     //Functions**********************************************************
-    
+    function assignToGame() {
+        console.log('Button Clicked');
+        
+    }
     //Event listeners***************************************************************
-    
+    $("#begin-game").click(assignToGame)
     //Startup routine***************************************************************
     
 });
