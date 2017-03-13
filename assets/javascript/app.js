@@ -11,10 +11,12 @@ $(document).ready(function() {
 
     //Initial variables***************************************************************
     var database = firebase.database();
+    var auth = firebase.auth();
 
     //Functions**********************************************************
     function assignToGame() {
         console.log('Button Clicked');
+
         
     }
     //Event listeners***************************************************************
